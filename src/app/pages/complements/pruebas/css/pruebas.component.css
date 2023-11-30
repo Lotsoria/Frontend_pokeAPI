@@ -1,0 +1,155 @@
+body {
+  font-family: sans-serif;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 100vh;
+}
+
+.card {
+  background-color: white;
+  width: 328px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.cardHeader {
+  width: 100%;
+  display: block;
+  height: 100px;
+}
+.card .cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--color2);
+}
+.card .cardBody .cardBodyContent {
+  border: 5px solid #F67C55;
+  border-radius: 50%;
+  background-color: #FCD3C6;
+  box-shadow: 0px -10px 20px #F67C55;
+  margin-top: -50px;
+}
+.card .cardBody .cardBodyContent Img {
+  padding: 20px;
+}
+.card .cardBody .cardBodyTitle {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.card .cardBody .cardBodyTitle .cardBodyTitleNumber {
+  color: var(--color2);
+}
+.card .cardFooter {
+  display: flex;
+  justify-content: space-around;
+}
+.card .cardFooter .cardFooterPower {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.card .cardFooter .cardFooterPower .types {
+  background: #47ca00;
+  border-radius: 15px;
+  padding: 7px;
+  font-size: 10px;
+}
+
+.card2 {
+  background-color: white;
+  width: 328px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.card2Header {
+  width: 100%;
+  height: 128px;
+  display: block;
+}
+.card2Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--color3);
+}
+.card2BodyContent {
+  border: 5px solid #4e699a;
+  border-radius: 50%;
+  background-color: #95a0b6;
+  box-shadow: 0px -10px 20px #4e699a;
+  margin-top: -50px;
+}
+.card2BodyContentImg {
+  padding: 20px;
+}
+.card2BodyTitle {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.card2BodyTitleNumber {
+  color: var(--color3);
+}
+.card2Footer {
+  display: flex;
+  justify-content: space-around;
+}
+.card2FooterPower {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.card3 {
+  background-color: white;
+  width: 328px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.card3Header {
+  width: 100%;
+  height: 128px;
+  display: block;
+}
+.card3Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--color3);
+}
+.card3BodyContent {
+  border: 5px solid #47ca00;
+  border-radius: 50%;
+  background-color: #c8eeb3;
+  box-shadow: 0px -10px 20px #47ca00;
+  margin-top: -50px;
+}
+.card3BodyContentImg {
+  padding: 20px;
+}
+.card3BodyTitle {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+.card3BodyTitleNumber {
+  color: var(--color6);
+}
+.card3Footer {
+  display: flex;
+  justify-content: space-around;
+}
+.card3FooterPower {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}/*# sourceMappingURL=pruebas.component.css.map */

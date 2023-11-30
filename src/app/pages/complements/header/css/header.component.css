@@ -1,0 +1,28 @@
+.container {
+  height: 100px;
+  background-color: #2e303d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .title h1 {
+  color: red;
+}
+.container .title h1 span {
+  color: white;
+}
+.container .menu {
+  width: 30%;
+}
+.container .menu ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.container .menu ul li {
+  list-style: none;
+}
+.container .menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=header.component.css.map */

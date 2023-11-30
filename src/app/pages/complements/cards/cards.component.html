@@ -1,0 +1,23 @@
+<div class="container">
+    <p class="id">{{datosPokemon.id}}</p>
+    <div class="imgBox">
+        <img src="{{datosPokemon.imagenes}}" alt="not">
+        <h2>{{datosPokemon.nombre}}</h2>
+    </div>
+    <hr>
+    <div class="contentbox">
+        <div class="abilitys">
+            <h3>Habilidades</h3>
+            <div class="abilitysBox" >
+                <p class="tag" *ngFor="let ability of datosPokemon.habilidades">{{ability}}</p>
+            </div>
+        </div>
+        <hr>
+        <div class="types">
+            <h3>Tipo</h3>
+            <div class="typesBox" >              
+                <p class="tag" *ngFor="let types of datosPokemon.tipos let i= index" style="--i: {{coloresPorTipo[i]}};">{{types.type.name}} </p>
+            </div>
+        </div>
+    </div>
+</div>

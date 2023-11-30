@@ -1,0 +1,31 @@
+.container{
+    height: 100px;
+    background-color: #2e303d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .title{
+        h1{
+            color: red;
+            span{
+                color: white;
+            }
+        }
+    }
+    .menu{
+        width: 30%;
+        ul{
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+}

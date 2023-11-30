@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap");
+.container {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  width: 400px;
+  height: 500px;
+  background-color: rgba(124, 190, 179, 0.0666666667);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 15px;
+  border: 1px solid black;
+}
+.container .id {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 2%;
+  right: 4%;
+  border: 2px solid black;
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  border-radius: 50%;
+  font-weight: 800;
+}
+.container .imgBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+}
+.container .imgBox img {
+  max-width: 200px;
+  min-height: 100px;
+}
+.container .contentbox {
+  display: flex;
+  height: 40%;
+  width: 100%;
+}
+.container .contentbox .abilitys {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+.container .contentbox .abilitys .abilitysBox {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container .contentbox .abilitys .abilitysBox .tag {
+  border: 2px solid black;
+  font-family: "Pixelify Sans", sans-serif;
+  padding: 4px 10px;
+  display: inline-block;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background: var(--i);
+  color: #fff;
+}
+.container .contentbox .types {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+.container .contentbox .types .typesBox {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.container .contentbox .types .typesBox .tag {
+  border: 3px solid black;
+  font-family: "Pixelify Sans", sans-serif;
+  padding: 3px 10px;
+  display: inline-block;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  background: var(--i);
+  color: #fff;
+}
+
+hr {
+  border-color: #111;
+}/*# sourceMappingURL=cards.component.css.map */

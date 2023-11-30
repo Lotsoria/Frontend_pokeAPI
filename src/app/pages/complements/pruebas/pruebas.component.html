@@ -1,0 +1,43 @@
+<div class="body">
+    <div class="container">
+        <article class="card">
+            <img src="img/fondoencabezado.svg" alt="fondoencabezado" class="cardHeader">
+            <div class="cardBody">
+                <div class="cardBodyContent">
+                    <img src="{{datosPokemon.imagenes}}" alt="charizard" class="cardBodyContentImg" width="150">
+                </div>
+                <h1 class="cardBodyTitle">
+                    {{datosPokemon.nombre}}
+                    <span class="cardBodyTitleNumber">#{{datosPokemon.id}}</span>
+                </h1>
+                <p class="cardBodyText">
+                    coleccionable
+                </p>
+            </div>
+            <div class="cardFooter">
+                <div class="cardFooterPower">
+                    <h3>
+                        Poder
+                    </h3>
+                    <!-- <img src="img/fuego.png" alt="fuego" width="35"> -->
+                    <h5 class="types">{{datosPokemon.tipos[0].type.name}}</h5>
+                    <h5 class="types">{{datosPokemon.tipos[1].type.name}}</h5>
+                </div>
+                <div class="cardFooterPower">
+                    <h3>
+                        Resistencia
+                    </h3>
+                    <img src="img/castillo.png" alt="castillo" width="35">
+                </div>
+                <div class="cardFooterPower">
+                    <h3>
+                        Habilidades
+                    </h3>
+                    <!-- <img src="img/cofre.png" alt="cofre" width="35"> -->
+                    <h5 class="types">{{datosPokemon.habilidades[0]}}</h5>
+                    <h5 class="types">{{datosPokemon.habilidades[1]}}</h5>
+                </div>
+            </div>
+        </article>
+    </div>
+</div>
